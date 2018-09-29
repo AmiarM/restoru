@@ -1,0 +1,47 @@
+/*
+Credit: http://www.templatemo.com
+*/
+
+.marges {
+background-color : White;
+margin-left: 0px;
+margin-top: 0px;
+margin-bottom: 0px;
+margin-right: 0px;
+background-image : url(images/relief.png);
+background-repeat : repeat;
+}
+
+.door{
+background-image : url(images/tableau.png);
+padding:100px;
+margin-left: auto;
+margin-right: auto;
+height:210px;
+width:250px;
+position:absolute;
+left: 50%; 
+top: 50%;
+margin-top: -180px; /* moitié de la hauteur de l'image */
+margin-left: -195px; /* moitié de la largeur de l'image */
+}
+
+#welcome {	
+    
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    background-color: #FFF;
+    border: 30px ;
+	
+}
+
+.equipe{
+	width:350px;
+	height:200px;
+	margin:40px;
+	padding:10px;
+	background-color:#9E9E9E;
+	border-radius: 10px;
+	
+	}

@@ -1,0 +1,66 @@
+
+/*   LES STYLES DE MENUS */
+
+
+* {
+	margin:0;
+	padding:0;
+	text-align: center;
+}
+h1,h2{padding:10px 20px 0}
+#wrap{
+width:550px;
+border:1px solid #eff2df;
+margin:0 20px;
+float:left;
+background:#809900;
+}
+#wrap ul{
+padding:20px 40px;
+list-style:none;
+float:left;
+border:1px solid #4c7300;
+position:relative;
+left:-2px;
+top:-2px;
+background:#eff2df;
+color:#4c7300;
+}
+#wrap li{
+border-bottom:1px dotted #000;
+line-height:1.0;
+margin:0 0 .5em 0;
+position:relative;
+width:100%;
+float:left
+}
+#wrap li span{
+background:#eff2df;
+padding:1px 0 1px 5px;
+float:right;
+color:#000;
+position:relative;
+top:.2em;
+}
+#wrap li em{
+float:left;
+margin:0;
+position:relative;
+top:.2em;
+padding:0 5px 0 0;
+background:#eff2df;
+font-style:normal;
+}
+
+
+
+/*  LANGUE */
+
+#langue{
+width:20px;
+border:1px solid #eff2df;
+margin:100 80px;
+
+background:#809900;
+text-align:right;
+}

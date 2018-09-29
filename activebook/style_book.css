@@ -1,0 +1,216 @@
+@charset "utf-8";
+
+.clear {
+	clear:both;
+}
+.btnadmin {
+	margin-left: 5px;
+	padding-top: 3px;
+}
+#letout {
+	color:#333333;
+	font-size:12px;
+	font-family:"Tahoma", Trebuchet MS;
+	height:100%;
+	margin: 0 auto;
+	padding: 0;
+	width: 680px;
+}
+#letout a {
+	color:#666;
+	text-decoration:none;
+}
+#letout a:hover {
+	color:#000;
+	text-decoration:none;
+}
+.erreur {
+	border:1px solid red;
+	margin-top:5px;
+	padding: 5px 5px 5px 25px;
+	width:96.7%;
+	background: url(activebook/img/alert.png) 5px no-repeat #F7C5C5;
+	font-weight:blod;
+}
+.success {
+	border:1px solid green;
+	margin:3px 5px 5px 25px;
+	padding:5px;
+	width:96.7%;
+	background: url(activebook/img/alert.png) 5px no-repeat #BEE0C7;
+	font-weight:blod;
+}
+.centrer {
+	border: 1px solid #CCCCCC;
+	padding: 5px;
+	width: 80%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	/* Couleur de tout le livre */
+	background:#FFFFFF;
+}
+.poster {
+	height: 20px;
+	width: 94.4%;
+	border: 1px solid #CCCCCC;
+	background-image:url(activebook/img/add.png);
+	font-weight: bold;
+	font-size: 12px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 25px;
+	background-repeat: no-repeat;
+	background-position: 5px;
+	cursor: pointer;	
+}
+
+.administration {
+	height: 15px;
+	width: 96.7%;
+	border: 1px solid #CCCCCC;
+	background-image: url(activebook/img/admin.gif);
+	font-weight: bold;
+	font-size: 12px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 25px;
+	background-repeat: no-repeat;
+	background-position: 5px;
+	cursor: pointer;
+}
+.poster2 {
+	background-image: url(activebook/img/delete.png);
+}
+
+.divpost {
+	display:none;
+	margin-bottom:10px;
+}
+.ib_textearea {
+	font-size:12px;
+	font-family:"Tahoma", Trebuchet MS;
+	color:#999999;
+	font-weight:normal;
+	padding: 5px;
+	width: 98.7%;
+	height: 100px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	border: 1px solid #CCCCCC;
+}
+.updatemes {
+	font-size:12px;
+	font-family:"Tahoma", Trebuchet MS;
+	color:#999999;
+	font-weight:normal;
+	padding: 5px;
+	width: 96.5%;
+	height: 100px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	border: 1px solid #CCCCCC;
+}
+.ib_input {
+	font-size:12px;
+	font-family:"Tahoma", Trebuchet MS;
+	color:#36a1ff;
+	padding: 5px;
+	width: 50%;
+	height: 15px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	border: 1px solid #CCCCCC;
+}
+.ib_button {
+	color:#999999;
+	border: 1px solid #CCCCCC;
+	background-color: #FFFFFF;
+}
+.message {
+	width: 900px;
+	height: 70px;
+	margin-top: 10px;
+}
+.com_global {
+	border: 1px solid #999999;
+	margin-top: 5px;
+}
+.commentaire {
+	font-size:12px;
+	padding-top:0px;
+	margin-bottom:5px;
+	color:#36a1ff;
+	width:900px;
+	padding: 5px;
+	border-left : 1px solid #999;
+}
+.commentaire span {
+	font-size:12px;
+	color:#999;
+	font-weight:bold;
+}
+#commentaire {
+	font-size:12px;
+	color:#000;
+	border-top:1px solid #999;
+	padding:7px;
+}
+.date {
+	float:right
+}
+.update, .delete {
+	cursor: pointer;
+	margin-top:20px;
+}
+.pagination {
+	margin-top:10px;
+	float:left;
+}
+.comment_count {
+	margin-top:10px;
+	float:right;
+}
+.changepage {
+	cursor: pointer;
+	color:#333333;
+	border:1px solid #666666;
+	margin-left:5px;
+	padding-left:5px;
+	padding-right:5px;
+	line-height:20px;
+}
+.changepage:hover {
+	background:#8BCBEF;
+}
+.emoticone {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	cursor:pointer;
+	margin-right: 2px;
+	margin-left: 2px;
+	margin-bottom: 3px;
+	float:left;
+}
+span.tooltip {
+	background:#FFF;
+	border:1px solid #4B88B7;
+	display:none;
+	padding:8px;
+	position:absolute;
+	z-index:1000;
+	-moz-border-radius:3px;
+}
+/* Administrator comment Style */
+.admincolor table {
+/* Add comment style here */
+}
